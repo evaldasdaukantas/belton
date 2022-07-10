@@ -1,0 +1,46 @@
+.contact .container .col-5 h2{
+    font-size: 48px;
+}
+.contact .container .col-5 p{
+    font-size: 24px;
+    text-align: left !important;
+}
+
+.contact .container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.contact form input, .contact form textarea{
+    background-color: lightgray;
+    border: none;
+    border-radius: 0px;
+}
+.contact .image{
+    display: flex;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (min-width:990px) {
+    .contact .col-5{
+        max-width: 30%;
+        padding: 3rem;
+    }
+    .contact form{
+      margin-top: 3rem;
+    }
+    
+}
+@media (max-width:990px) {
+    .contact form{
+        min-width: 150%;
+    }
+    
+}
+
+
+

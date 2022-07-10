@@ -1,0 +1,32 @@
+.middle2 .col-12, .middle2 .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.middle2 .card h3, h5, p{
+    text-align: center !important;
+}
+.middle2 .card{
+    border: none;
+}
+.middle2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: max-content;
+}
+.middle2 .image{
+    max-width: 100vw;
+}
+.middle2 img{
+    width: 100vw;
+}
+@media (min-width:920px) {
+    .middle2 .col-12.md{
+        width: 45%;
+        margin: auto;
+    }
+    
+}

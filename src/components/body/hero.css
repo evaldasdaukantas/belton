@@ -1,0 +1,26 @@
+.container.hero div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.container.hero .col-12.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+.container.hero .col-12.text h1{
+    text-align: center;
+}
+.container.hero .col-12.image img{
+    width: 100%;
+
+}
+.container.hero .row{
+    margin-bottom: 4rem;
+
+  
+}

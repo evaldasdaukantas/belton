@@ -1,0 +1,47 @@
+.four .card {
+  border: none !important;
+  border-radius: none !important;
+  padding: 0px;
+}
+.four .card-title h5 {
+  text-align: left !important;
+}
+.four .card-body p {
+  text-align: left !important;
+}
+.four .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+@media (min-width: 920px) {
+  .four .card {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    margin: 6rem;
+  }
+  .four img {
+    max-height: 300px;
+  }
+  .four .card-body p {
+    width: 600px !important;
+    margin-left: 6rem;
+  }
+  .four .card-body h5 {
+    margin-left: 6rem;
+  }
+}
+@media (max-width: 990px) {
+  .four{
+    margin-top: 3rem;
+  }
+    .four img {
+    width: 100% !important;
+  }
+  .four .card {
+    padding: 0px !important;
+  }
+}
